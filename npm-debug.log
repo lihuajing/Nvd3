@@ -1,0 +1,30 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'd3',
+1 verbose cli   '--save' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.3
+4 verbose stack Error: Cannot find module 'has-unicode'
+4 verbose stack     at Function.Module._resolveFilename (module.js:337:15)
+4 verbose stack     at Function.Module._load (module.js:287:25)
+4 verbose stack     at Module.require (module.js:366:17)
+4 verbose stack     at require (module.js:385:17)
+4 verbose stack     at Object.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-install-checks/node_modules/npmlog/node_modules/gauge/progress-bar.js:2:18)
+4 verbose stack     at Module._compile (module.js:435:26)
+4 verbose stack     at Object.Module._extensions..js (module.js:442:10)
+4 verbose stack     at Module.load (module.js:356:32)
+4 verbose stack     at Function.Module._load (module.js:311:12)
+4 verbose stack     at Module.require (module.js:366:17)
+4 verbose stack     at require (module.js:385:17)
+5 verbose cwd /Users/vinci/Product/Nvd3
+6 error Darwin 15.0.0
+7 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "d3" "--save"
+8 error node v4.2.3
+9 error npm  v2.14.7
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'has-unicode'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
